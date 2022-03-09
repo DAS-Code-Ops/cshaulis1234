@@ -1,5 +1,6 @@
 - 👋 Hello, I’m Charlene.
 - 🌱 I’m currently learning Python as part of an analytics program.
+- ✨ The programs and scripts that I am writing as part of my coursework are included here.
 
 
 <!---
