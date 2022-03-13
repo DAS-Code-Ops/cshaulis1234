@@ -1,0 +1,21 @@
+# Comparisons
+# Equal:               ==
+# Not Equal:           !=
+# Greater Than          >
+# Less Than             <
+# Greater or Equal      >=
+# Less or Equal         <=
+# Object Identity       is
+
+# False Values (setting conditions using these values in Python will result in the same when a false condition is met).
+  # False
+  # None
+  # Zero of any numeric type
+  # Any empty sequence. For example: [], '', ()
+  
+  condition = False
+  
+  if condition:
+  Print('Evaluated to True')
+  
+  
