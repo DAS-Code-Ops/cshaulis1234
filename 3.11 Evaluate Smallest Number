@@ -1,0 +1,18 @@
+#Evaluates 3 numerical values and outputs the smallest.
+
+#Input 3 numerical values.
+input1 = int(input())
+input2 = int(input())
+input3 = int(input())
+
+#Evaluates whether input1 is smaller than input2 and input3. If true, declares input1 as the answer.
+if (input1 < input2) and (input1 < input3):
+    print(input1)
+    
+#If input1 was not the answer to the previous code block, the following evaluates whether the input2 is smaller than the input1 and input3. If true, declares input2 as the answer.
+elif (input2 < input1) and (input2 < input3):
+    print(input2)
+    
+#If input3 is smaller than input1 and input2, declares input3 as the answer.
+else: 
+    print(input3)
