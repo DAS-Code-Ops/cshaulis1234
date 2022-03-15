@@ -1,0 +1,87 @@
+#This program assigns a season based on month and day input.
+input_month = input('Input full month name ')
+input_day = int(input('Input day of the month '))
+
+#Evaluates month and day input and returns season, unless month and day entered are outside of parameters, in which case "Invalid" is output.
+if input_month == 'January':
+    if 1 <= input_day <= 31:
+        season = 'Winter'
+    else:
+        season = 'Invalid'
+
+elif input_month == 'February':
+    if 1 <= input_day <= 28:
+        season = 'Winter'
+    else:
+        season = 'Invalid'
+
+elif input_month == 'March':
+    if 1 <= input_day <= 19:
+        season = 'Winter'
+    elif 20 <= input_day <= 31:
+        season = 'Spring'
+    else:
+        season = 'Invalid'
+
+elif input_month == 'April':
+    if 1 <= input_day <= 30:
+        season = 'Spring'
+    else:
+        season = 'Invalid'
+
+elif input_month == 'May':
+    if 1 <= input_day <= 31:
+        season = 'Spring'
+    else:
+        season = 'Invalid'
+
+elif input_month == 'June':
+    if 1 <= input_day <= 20:
+        season = 'Spring'
+    elif 21 <= input_day <= 30:
+        season = 'Summer'
+    else:
+        season = 'Invalid'
+
+elif input_month == 'July':
+    if 1 <= input_day <= 31:
+        season = 'Summer'
+    else:
+        season = 'Invalid'
+
+elif input_month == 'August':
+    if 1 <= input_day <= 31:
+        season = 'Summer'
+    else:
+        season = 'Invalid'
+
+elif input_month == 'September':
+    if 1 <= input_day <= 21:
+        season = 'Summer'
+    elif 22 <= input_day <= 30:
+        season = 'Autumn'
+    else:
+        season = 'Invalid'
+
+elif input_month == 'October':
+    if 1 <= input_day <= 31:
+        season = 'Autumn'
+    else:
+        season = 'Invalid'
+
+elif input_month == 'November':
+    if 1 <= input_day <= 30:
+        season = 'Autumn'
+    else:
+        season = 'Invalid'
+
+elif input_month == 'December':
+    if 1 <= input_day <= 20:
+        season = 'Autumn'
+    elif 21 <= input_day <= 31:
+        season = 'Winter'
+    else:
+        season = 'Invalid'
+
+#Outputs the season.
+print(season)
